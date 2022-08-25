@@ -2,6 +2,12 @@ body{
     background-color: black;
 }
 
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 #namn{
     text-align: center;
     color: aqua;
