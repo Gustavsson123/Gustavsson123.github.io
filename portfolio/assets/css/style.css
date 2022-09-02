@@ -6,6 +6,14 @@ h1, h2, a{
     color: white;
 }
 
+a:hover{
+    color: gray;
+}
+
+a:active{
+    color: lightGray;
+}
+
 body{
     background-image: url("/portfolio/assets/img/bg-header.jpg");
     background-repeat: no-repeat;
