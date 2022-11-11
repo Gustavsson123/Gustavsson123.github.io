@@ -1,43 +1,43 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-html{
+html {
     scroll-behavior: smooth;
-   }
+}
 
 body {
     font-family: 'Open Sans', sans-serif;
 }
 
 /* introduction */
-.top{
+.top {
     height: 100vh;
     background-image: url("../img/bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.introCenter{
+.introCenter {
     color: white;
     text-align: center;
 }
 
-.introCenter h1{
+.introCenter h1 {
     font-size: 150px;
 }
 
-.introCenter h2{
+.introCenter h2 {
     font-size: 60px;
 }
 
-.introCenter p{
+.introCenter p {
     font-size: 20px;
 }
 
 
-.recentProjectButton{
+.recentProjectButton {
     background-color: cornflowerblue;
     color: white;
     padding: 15px 32px;
@@ -48,7 +48,7 @@ body {
     border-radius: 4px;
 }
 
-#myBtn{
+#myBtn {
     display: none;
     position: fixed;
     bottom: 20px;
@@ -63,14 +63,14 @@ body {
     border-radius: 4px;
 }
 
-#myBtn:hover{
+#myBtn:hover {
     opacity: 0.8;
 }
 
 /* end introduction */
 
 /* education */
-.education{
+.education {
     height: 500px;
     width: 100%;
     background-color: #e7e6e6;
@@ -80,13 +80,13 @@ body {
     align-items: center;
 }
 
-.education h1{
+.education h1 {
     font-size: 40px;
     padding-top: 80px;
     padding-bottom: 20px;
 }
 
-.educationContent{
+.educationContent {
     margin: 0 30px;
     height: fit-content;
     border-radius: 10px;
@@ -95,18 +95,19 @@ body {
     text-align: center;
 }
 
-.educationContent p{
+.educationContent p {
     padding: 20px;
     font-size: 20px;
 }
 
-.educationContent a{
+.educationContent a {
     color: #3d3d3d;
 }
-/* end education */ 
+
+/* end education */
 
 /* language experience */
-.langExperience{
+.langExperience {
     height: fit-content;
     background-color: cornflowerblue;
     width: 100%;
@@ -115,32 +116,33 @@ body {
     align-items: center;
 }
 
-.langExperience h1{
+.langExperience h1 {
     margin: 60px 0;
     font-size: 50px;
     color: white;
 }
 
-.langExperience i{
+.langExperience i {
     font-size: 50px;
     margin: 0 50px;
 }
 
-.langIcons{
+.langIcons {
     display: flex;
 }
 
-.langInfo{
+.langInfo {
     display: flex;
     flex-direction: column;
     align-items: center;
-    flex-wrap: wrap;
+    width: 100%;
     padding: 30px;
 }
 
-.langInfo i{
+.langInfo i {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     justify-content: center;
     height: 100px;
     width: 100px;
@@ -149,101 +151,101 @@ body {
     color: cornflowerblue;
 }
 
-.langInfo h2{
+.langInfo h2 {
     margin-top: 10px;
     font-size: 20px;
     text-align: center;
     color: white;
 }
 
-.langInfo a{
+.langInfo a {
     font-size: 15px;
     color: #222222;
 }
 
-.langInfo p{
+.langInfo p {
     text-align: center;
     color: white;
 }
 
-.langInfo img{
+.langInfo img {
     height: 50px;
     width: 50px;
 }
+
+
 /* end language experience */
 
+.projects {
+    background-color: var(--bg-color);
+    padding: 32px 0;
+    margin-top: 2rem;
+}
 
-/* recent projects */
-#recentProject{
-    height: fit-content;
-    width: 100%;
-    background-color: #e7e6e6;
-    color: #3d3d3d;
+.project-pic {
+    width: 85%;
+    height: 60%;
+}
+
+.projects-container {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
-}
-
-#recentProject h1{
-    padding: 80px 0;
-}
-
-.recentProjectContent{
-    display: flex;
     justify-content: center;
 }
 
-.recentProjectInfo{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 100px;
-    margin-bottom: 100px;
+.projects-title {
+    text-align: center;
+    margin-bottom: 1rem;
 }
 
-.recentProjectInfo a{
-    color: #3d3d3d;
-    text-decoration: none;
-    font-size: 20px;
-    padding: 0 0 20px 0;
+.project-container {
+    text-align: center;
+    width: 21.875rem;
+    padding: 1rem;
 }
 
-.recentProjectInfo a:hover{
-    text-decoration: underline;
-    color: black;
+.project-container p {
+    padding: 0.4rem;
 }
 
-.recentProjectInfo img{
-    width: 100%;
-    height: 100%;
-    min-height: 200px;
-    min-width: 400px;
-    
+.project-title {
+    margin-bottom: var(--bottom-margin);
 }
 
-.recentProjectInfo img:hover{
-    box-shadow: 0px 20px 40px #3d3d3d;
+.project-details {
+    margin-bottom: var(--bottom-margin);
 }
+
+.project-card {
+    background-color: #fff;
+    border-radius: 11px;
+    box-shadow: 0 3px 10px var(--primary-shadow);
+    padding: 20px;
+    margin: 10px;
+}
+
+
 
 /* end recent projects */
 
 /* about me */
-.aboutMe{
+.aboutMe {
     height: 700px;
     width: 100%;
-    background-color:  #eeeded;
+    background-color: #eeeded;
     color: #3d3d3d;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.aboutMe h1{
+.aboutMe h1 {
     padding: 80px 0;
 }
 
 
-.aboutMeContent{
+.aboutMeContent {
     margin: 0 30px;
     width: 50%;
     height: fit-content;
@@ -252,15 +254,16 @@ body {
 }
 
 
-.aboutMeContent p{
+.aboutMeContent p {
     padding: 0 20px;
     font-size: 20px;
 }
+
 /* end about me */
 
 
 /* footer */
-.footer{
+.footer {
     background-color: cornflowerblue;
     display: flex;
     flex-direction: column;
@@ -268,16 +271,16 @@ body {
     height: 400px;
 }
 
-.footer h1{
+.footer h1 {
     color: white;
     margin: 40px 0;
 }
 
-.footerLink{
+.footerLink {
     color: white;
 }
 
-.footerCenter{
+.footerCenter {
     width: 50%;
     padding: 30px;
     display: flex;
@@ -285,7 +288,7 @@ body {
     justify-content: center;
 }
 
-.callButton{
+.callButton {
     background-color: white;
     color: black;
     padding: 15px 32px;
@@ -296,7 +299,7 @@ body {
     border-radius: 4px;
 }
 
-.mailButton{
+.mailButton {
     background-color: black;
     color: white;
     padding: 15px 32px;
@@ -305,16 +308,18 @@ body {
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 4px;
-}  
+}
 
-.mailButton:hover, .callButton:hover{
+.mailButton:hover,
+.callButton:hover {
     background-color: #474747;
     color: white;
 }
+
 /* end footer */
 
 /* find me section */
-.findMe{
+.findMe {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -323,15 +328,15 @@ body {
     padding: 10px;
 }
 
-.findMe h1{
+.findMe h1 {
     margin: 40px 0;
 }
 
-.links{
+.links {
     display: flex;
 }
 
-.links a{
+.links a {
     font-size: 40px;
     color: black;
     text-decoration: none;
@@ -345,14 +350,14 @@ body {
     transition-duration: .4s;
 }
 
-.links a:hover{
-    border-color: black;  
+.links a:hover {
+    border-color: black;
 }
 
 /* end find me section */
 
 /* coppyright section */
-.copyrightFooter{
+.copyrightFooter {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -361,7 +366,7 @@ body {
     padding: 10px;
 }
 
-.copyrightFooter a{
+.copyrightFooter a {
     font-size: 15px;
     color: black;
     text-decoration: none;
@@ -370,79 +375,79 @@ body {
 
 /* Media  */
 @media only screen and (max-width: 780px) {
-   .aboutMe{
+    .aboutMe {
         height: 550px;
     }
 
-    .aboutMeContent{
+    .aboutMeContent {
         width: 100%;
 
     }
-    
-    .introCenter h1{
+
+    .introCenter h1 {
         font-size: 60px;
     }
-    
-  }
 
-  @media only screen and (max-width: 1300px) {
-    .langIcons{
+}
+
+@media only screen and (max-width: 1300px) {
+    .langIcons {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    
-  }
+
+}
 
 
-  @media only screen and (max-width: 340px) {
-    .introCenter{
+@media only screen and (max-width: 340px) {
+    .introCenter {
         color: white;
         text-align: center;
     }
 
-    .introCenter h1{
+    .introCenter h1 {
         font-size: 40px;
     }
 
-    .introCenter h2{
+    .introCenter h2 {
         font-size: 30px;
     }
 
-    .introCenter p{
+    .introCenter p {
         font-size: 20px;
     }
 
-    .education{
+    .education {
         height: fit-content;
-        
+
     }
-    
-    .education h1{
+
+    .education h1 {
         font-size: 30px;
     }
-    
 
-    .aboutMe{
+
+    .aboutMe {
         height: fit-content;
     }
 
-    .aboutMeContent{
+    .aboutMeContent {
         width: 100%;
 
     }
 
-    .copyrightFooter a{
+    .copyrightFooter a {
         font-size: 12px;
         color: black;
         text-decoration: none;
     }
-    
-  }
 
-  @media (max-width: 1010px) {
-    .recentProjectContent{
+}
+
+@media (max-width: 1010px) {
+    .recentProjectContent {
         flex-direction: column;
         align-items: center;
     }
@@ -451,4 +456,4 @@ body {
         padding: 10px 100px 10px 100px;
         margin-bottom: 10px;
     }
-  }
+}
