@@ -196,7 +196,7 @@ body {
 
 
 .box {
-    width: 600px;
+    width: 30%;
     top: 50%;
     left: 50%;
     padding: 25px 20px;
@@ -473,18 +473,31 @@ body {
         font-size: 60px;
     }
 
-}
-
-@media only screen and (max-width: 1300px) {
-    /* .langIcons {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    } */
-
+    .box {
+        width: auto;
+    }
 
 }
 
+
+@media only screen and (max-width: 370px) {
+    .cert-card h2 {
+        font-size: 20px;
+    }
+
+    .cert-card p {
+        font-size: 15px;
+    }
+
+
+    .introCenter h1 {
+        font-size: 45px;
+    }
+
+    .introCenter h2 {
+        font-size: 35px;
+    }
+}
 
 @media only screen and (max-width: 340px) {
     .introCenter {
@@ -528,6 +541,7 @@ body {
         color: black;
         text-decoration: none;
     }
+
 
 }
 
